@@ -36,6 +36,9 @@ public class Main {
             double dividieren_zweite_zahl = scanner.nextDouble();
             System.out.println(dividieren(dividieren_erste_zahl, dividieren_zweite_zahl));
         }
+        else {
+            System.out.println("Es wurde keine gültige Recheneinheit angegeben!");
+        }
 
     }
     public static double addieren(double a, double b) {
